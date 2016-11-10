@@ -1,0 +1,264 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"el",
+				"else\tkeyword"
+			],
+			[
+				"lk",
+				"lookup_key"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 784.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"highi",
+				"SublimeLinter: No Column Highlights Entire Line"
+			],
+			[
+				"pair",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"projec",
+				"Project: Add Folder"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"scheme",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"intel",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 1056.0
+	},
+	"console":
+	{
+		"height": 246.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Dev/sample",
+		"/C/Dev/sample/sample"
+	],
+	"file_history":
+	[
+		"/C/Dev/aroorah/config/settings/common.py",
+		"/C/Dev/aroorah/manage.py",
+		"/C/Dev/aroorah/.env",
+		"/C/Dev/aroorah/aroorah/templates/pages/about.html",
+		"/C/Dev/aroorah/aroorah/templates/base.html",
+		"/C/Dev/aroorah/aroorah/templates/pages/home.html",
+		"/C/Dev/aroorah/requirements/base.txt",
+		"/C/Dev/aroorah/config/settings/local.py",
+		"/C/Dev/aroorah/requirements/local.txt",
+		"/C/Dev/django/django.sublime-project",
+		"/C/Dev/django/manage.py",
+		"/C/Apps/WinPython-64bit-3.5.2.2Qt5/settings/.jupyter/jupyter_notebook_config.py",
+		"/C/Users/youzh_000/Dropbox/Dev/Util/files/data.json",
+		"/C/Users/youzh_000/Dropbox/Dev/Util/test_xml.py",
+		"/C/Users/youzh_000/Dropbox/Dev/Util/test_csv.py",
+		"/C/Users/youzh_000/Dropbox/Dev/Util/test_json.py",
+		"/C/Users/youzh_000/Dropbox/Dev/Util/test_path.py",
+		"/C/Users/youzh_000/Dropbox/Dev/Util/test_decimal.py",
+		"/C/Dev/aroorah-cms/aroorah/templates/base.html",
+		"/C/Dev/aroorah-cms/aroorah/settings.py",
+		"/C/Users/youzh_000/Downloads/data.json",
+		"/C/Users/youzh_000/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 64.0
+	},
+	"find_in_files":
+	{
+		"height": 176.0,
+		"where_history":
+		[
+			"C:\\Dev\\aroorah"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"installed",
+			"staticfiles_",
+			"compressor",
+			"cookiecutter.windows",
+			"environ.ENV",
+			"read_env",
+			".env",
+			"env",
+			"postgresuser",
+			"password",
+			"dir",
+			"NUMERIC",
+			"databases",
+			"name"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sample.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1000.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Dev\\aroorah\\aroorah.sublime-project"
+			]
+		],
+		"width": 760.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 423.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
