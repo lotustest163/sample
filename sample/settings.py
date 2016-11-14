@@ -51,6 +51,7 @@ MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
+# The Debug Toolbar is shown only if your IP is listed in the INTERNAL_IPS setting.
 INTERNAL_IPS = ['127.0.0.1',]
 
 ROOT_URLCONF = 'sample.urls'
