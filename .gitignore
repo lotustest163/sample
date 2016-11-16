@@ -89,5 +89,9 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# workspace files are user-specific
+# SublimeText user-specific settings
 *.sublime-workspace
+
+# PyCharm user-specific settings
+.idea
+.idea/workspace.xml
