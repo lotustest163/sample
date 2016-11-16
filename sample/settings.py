@@ -26,7 +26,10 @@ SECRET_KEY = '(d-wb-o8_&9%i6jai&t49dnkv=#k#mm9d8lpf%@)j4)a_z=z3x'
 DEBUG = True
 
 # Production domains.
-ALLOWED_HOSTS = ['aroorah.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1',
+                 'localhost',
+                 'aroorah.pythonanywhere.com',
+]
 
 
 # Application definition
@@ -36,9 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+    'django.contrib.sites', # required by django-allauth
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # django-debug-toolbar
     'debug_toolbar',
+    # django-allauth
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
 ]
 
 MIDDLEWARE = [
@@ -128,3 +137,16 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+
+# django-allauth settings
+AUTHENTICATION_BACKENDS = (
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+)
+
+
+SITE_ID = 1
