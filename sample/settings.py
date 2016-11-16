@@ -25,7 +25,8 @@ SECRET_KEY = '(d-wb-o8_&9%i6jai&t49dnkv=#k#mm9d8lpf%@)j4)a_z=z3x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Production domains.
+ALLOWED_HOSTS = ['aroorah.pythonanywhere.com']
 
 
 # Application definition
