@@ -26,7 +26,11 @@ SECRET_KEY = '(d-wb-o8_&9%i6jai&t49dnkv=#k#mm9d8lpf%@)j4)a_z=z3x'
 DEBUG = True
 
 # Production domains.
-ALLOWED_HOSTS = ['aroorah.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'aroorah.pythonanywhere.com',
+]
 
 
 # Application definition
