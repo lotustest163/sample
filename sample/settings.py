@@ -33,6 +33,15 @@ ALLOWED_HOSTS = [
 ]
 
 
+EMAIL_HOST = 'smtp.sendgrid.com'
+EMAIL_HOST_USER = 'aroorah'
+# Sensitive data. DO NOT sync.
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+# This is the email displayed as the sender. NOT neccessary the actual source email.
+EMAIL_MAIN = 'test@sample.com' 
+
 # Application definition
 
 INSTALLED_APPS = [
